@@ -11,13 +11,13 @@ browser.get("https://twitter.com/i/flow/login")
 
 ### Quando estiver dando tudo certo ###
 # username = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input')))
-# username.send_keys("beijallote@gmail.com")
+# username.send_keys("") # Email da Conta
 
 # button_username = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]/div')))
 # button_username.click()
 
 # password = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div/div[3]/div/label/div/div[2]/div[1]/input')))
-# password.send_keys("Jose131997")
+# password.send_keys("") # Senha da Conta
 
 # button_password = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div[1]/div/div/div/div')))
 # button_password.click()
