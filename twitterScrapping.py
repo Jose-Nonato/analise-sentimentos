@@ -25,13 +25,13 @@ browser.get("https://twitter.com/i/flow/login")
 
 ### Quando der problema e pedir segunda autenticação ###
 username = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/label/div/div[2]/div/input')))
-username.send_keys("") # Email da Conta
+username.send_keys("beijallote@gmail.com") # Email da Conta
 
 button_username = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div/div/div[1]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[6]/div')))
 button_username.click()
 
 password = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'input[name="password"]')))
-password.send_keys("") # Senha da Conta
+password.send_keys("Jose131997") # Senha da Conta
 
 # button_password = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.XPATH, '/html/body/div/div/div/div/main/div/div/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div/div/div')))
 # button_password.click()
