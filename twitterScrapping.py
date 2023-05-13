@@ -67,3 +67,5 @@ while True:
         break
 
 print(len(arrayTrends))
+
+browser.quit()
